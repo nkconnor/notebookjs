@@ -1,23 +1,25 @@
 {
-    "name": "notebookjs",
-    "version": "0.3.1",
-    "description": "Parse and render IPython/Jupyter notebooks.",
-    "main": "notebook.js",
-    "homepage": "https://github.com/jsvine/notebookjs",
-    "keywords": [
-        "ipython",
-        "jupyter"
-    ],
-    "author": "Jeremy Singer-Vine <jsvine@gmail.com>",
-    "contributors": [],
-    "license": "MIT",
-    "dependencies": {
-        "ansi_up": ">=1.1.3",
-        "jsdom": ">=11.6.2",
-        "marked": ">=0.3.3"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/jsvine/notebookjs.git"
-    }
+  "name": "react-jupyter",
+  "version": "0.0.1",
+  "description": "Render Jupyter notebooks with React",
+  "main": "src/index.js",
+  "homepage": "https://github.com/nkconnor/react-jupyter",
+  "keywords": [
+    "ipython",
+    "jupyter",
+    "react"
+  ],
+  "author": "Nicholas Connor <email@nconnor.com>",
+  "contributors": [],
+  "license": "MIT",
+  "dependencies": {
+    "ansi_up": ">=1.1.3",
+    "jsdom": ">=11.6.2",
+    "marked": ">=0.3.3",
+    "react": "16.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nkconnor/react-jupyter.git"
+  }
 }
